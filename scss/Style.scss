@@ -1,0 +1,56 @@
+// The Font
+@import "Font";
+
+//The Color
+@import "Color";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Vazir;
+}
+
+.backGround-React{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    // The Image React
+    .img-React{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../Img/React.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    //The page cover
+    .page-Update{
+        width: 100%;
+        height: 100%;
+        background:linear-gradient( #5a5a5abd,#0281cab7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // flex-direction: column;
+
+
+        //the Title
+          .title-Update{
+            color: var(--First);
+            font-size: 1.4rem;
+          }
+        // The Loader
+        @import "Loader";
+              
+    }
+}
